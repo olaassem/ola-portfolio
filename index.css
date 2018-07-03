@@ -18,6 +18,10 @@ body{
     padding: 0;
     font-family: 'Karla', sans-serif;
 }
+
+.removepadding{
+	padding: 0px;
+}
 /*--End of Universal Styling--*/
 
 
@@ -37,7 +41,7 @@ nav {
 .navigation-container{
 	background-color: #FEB8D8;
 	color: #2015D1;
-	height: 10vh;
+	height: 8vh;
 	padding: 10px 50px;
 }
 
@@ -60,6 +64,7 @@ nav {
   	border: none;
   	margin-left: 20px;
   	width: 60px;
+  	padding-top: 7px;
 }
 
 .navigation-container a:visited{
@@ -82,6 +87,7 @@ nav {
 /*    height: 100vh;*/
     width: 100%;
     margin: 0px;
+    background-color: #2015D1;
 }
 
 .headerelements{
@@ -91,6 +97,7 @@ nav {
 	color: #FEB8D8;
 	padding: 20px 90px;
 	padding-top: 100px;
+/*	margin: 0px;*/
 }
 
 .greeting{
@@ -139,6 +146,27 @@ nav {
 	text-align: center;
 	color: #2015D1;
 	font-size: 35px;
+}
+
+.shetravels,
+.bringit,
+.sunchaser{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.projecthdr-1,
+.projecthdr-2,
+.projecthdr-3{
+	text-align: center;
+}
+
+.screen{
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+/*	display: flex;
+  	justify-content: center;*/
 }
 
 
