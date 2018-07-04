@@ -164,6 +164,11 @@ main{
 	color: #0032D3;
 	font-size: 60px;
 	font-family: 'Poppins', sans-serif;
+	margin-bottom: 25px;
+}
+
+.tools{
+	margin-bottom: 50px;
 }
 
 .shetravels,
@@ -171,13 +176,34 @@ main{
 .sunchaser{
 	margin-left: auto;
 	margin-right: auto;
-	border: 1px solid black;
+	margin-bottom: 50px;
 }
 
 .projecthdr-1,
 .projecthdr-2,
 .projecthdr-3{
 	text-align: left;
+	font-size: 30px;
+}
+
+.toolsUsed{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 30px;
+}
+
+
+.projecthdr-1{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+}
+
+.projecthdr-2{
+	font-family: 'Oxygen', sans-serif;
+}
+
+.projecthdr-3{
+	font-family: 'Oswald', sans-serif;
 }
 
 .mac-screen,
@@ -185,19 +211,27 @@ main{
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-/*	display: flex;
-  	justify-content: center;*/
 }
 
-
+.mac-screen{
+		padding:24px 26px;
+		display:inline-block;
+		margin:5px;
+		background-color: #0032D3;
+		border-radius:6px;
+		border:solid rgba(0,0,0,0.2);
+		border-width:1px 1px 5px;
+		box-shadow:0 10px 0 rgba(0,0,0,0.1), inset 0 0 3px rgba(255,255,255,0.3);
+}
 
 /*--Footer Styling--*/
 
 footer{
-	height: 40px;
+	padding: 0px;
+	height: 20px;
 	font-size: 15px;
-	background-color: #E6EEFF;
-	color: #0032D3;
+	background-color: #0032D3;
+	color: white;
 	width: 100%
 	margin-bottom: 0px;
 	padding-bottom: 0px;
