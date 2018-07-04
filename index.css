@@ -1,10 +1,3 @@
-/*font-family: 'Karla', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Poppins', sans-serif;*/
-
-
-
-
 /*--Universal Styling--*/
 *{
 	box-sizing: border-box;
@@ -14,9 +7,10 @@ font-family: 'Poppins', sans-serif;*/
 }
 
 body{
-    margin: 0;
-    padding: 0;
     font-family: 'Karla', sans-serif;
+		background-color: #0032D3;
+		padding: 0px;
+		margin: 0px;
 }
 
 .removepadding{
@@ -27,20 +21,19 @@ body{
 
 
 /*--Navigation Styling--*/
-
 nav {
 	margin-left: auto;
-  	margin-right: auto;
-  	position: fixed;
-  	top: 0;
-  	left: 0;
-  	right: 0;
-  	z-index: 10;
+  margin-right: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
 }
 
 .navigation-container{
-	background-color: #FEB8D8;
-	color: #2015D1;
+	background-color: #0032D3;
+	color: white;
 	height: 8vh;
 	padding: 10px 50px;
 }
@@ -49,70 +42,68 @@ nav {
 	font-family: 'Poppins', sans-serif;
 	font-weight: 600;
 	margin: 0px;
+	padding-top: 7px;
 	width: 129px;
-  	height: 60px;
-  	float: left;
-  	margin-left: 0px;
-  	margin-right:0px;
+  height: 60px;
+	float: left;
+	margin-left: 0px;
+	margin-right:0px;
+	vertical-align: middle;
 }
 
 .navigation-container a{
+	color: white;
 	cursor: pointer;
-  	font-size: 18px;
-  	float: right;
-  	align-items: right;
-  	border: none;
-  	margin-left: 20px;
-  	width: 60px;
-  	padding-top: 7px;
+  font-size: 22px;
+	float: right;
+  align-items: right;
+  border: none;
+  margin-left: 22px;
+  padding-top: 7px;
+	vertical-align: middle;
 }
 
 .navigation-container a:visited{
-	color: #2015D1;
+	color: white;
 }
 
 .navigation-container a:hover{
 	color: white;
+	opacity: 0.7;
 	font-weight: 600;
 }
-
 /*--End of Navigation Styling--*/
-
-
 
 
 
 /*--Header Styling--*/
 #box1{
-/*    height: 100vh;*/
-    width: 100%;
-    margin: 0px;
-    background-color: #2015D1;
+	height: 100vh;
+  width: 100%;
+  margin: 0px;
+  background-color: #0032D3;
 }
 
 .headerelements{
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #2015D1;
-	color: #FEB8D8;
-	padding: 20px 90px;
+	background-color: #0032D3;
+	color: white;
+	padding: 20px 30px;
 	padding-top: 100px;
-/*	margin: 0px;*/
 }
 
 .greeting{
-    font-size: 42px;
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
-/*    text-shadow: 1px 2px 1px rgba(128,128,128,0.7);*/
+	font-size: 55px;
+	margin: 0px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .headline{
-    font-size: 38px;
+    font-size: 45px;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
     margin-top: 8px;
-/*    text-shadow: 1px 2px 1px rgba(128,128,128,0.7);*/
 }
 
 .bio{
@@ -133,7 +124,25 @@ nav {
 .email{
 	font-weight: bold;
 	font-size: 18px;
+}
 
+.email-link{
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+}
+
+.email-link:hover{
+	font-weight: bold;
+	font-size: 18px;
+	opacity: 0.6;
+	color: white;
+}
+
+.email-link:visited{
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
 }
 
 /*End of Header Styling*/
@@ -142,10 +151,19 @@ nav {
 
 /*--Projects Section Styling--*/
 
+main{
+	background-color: #E6EEFF;
+	color: #0032D3;
+	margin: 0px;
+	padding-top: 35px;
+
+}
+
 .projects-header{
-	text-align: center;
-	color: #2015D1;
-	font-size: 35px;
+	text-align: left;
+	color: #0032D3;
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
 }
 
 .shetravels,
@@ -153,16 +171,18 @@ nav {
 .sunchaser{
 	margin-left: auto;
 	margin-right: auto;
+	border: 1px solid black;
 }
 
 .projecthdr-1,
 .projecthdr-2,
 .projecthdr-3{
-	text-align: center;
+	text-align: left;
 }
 
+.mac-screen,
 .screen{
-	max-width: 800px;
+	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 /*	display: flex;
@@ -174,9 +194,10 @@ nav {
 /*--Footer Styling--*/
 
 footer{
-	height: 50px;
-	background-color: #2015D1;
-	color: #FEB8D8;
+	height: 40px;
+	font-size: 15px;
+	background-color: #E6EEFF;
+	color: #0032D3;
 	width: 100%
 	margin-bottom: 0px;
 	padding-bottom: 0px;
