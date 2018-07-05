@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Karla', sans-serif;
-		background-color: #0032D3;
+		background-color: #E6EEFF;
 		padding: 0px;
 		margin: 0px;
 }
@@ -46,12 +46,12 @@ nav {
 	width: 129px;
   height: 60px;
 	float: left;
-	margin-left: 0px;
-	margin-right:0px;
 	vertical-align: middle;
+	color: white;
 }
 
-.navigation-container a{
+
+.nav-links a{
 	color: white;
 	cursor: pointer;
   font-size: 22px;
@@ -63,11 +63,13 @@ nav {
 	vertical-align: middle;
 }
 
-.navigation-container a:visited{
+.name :visited,
+.nav-links a:visited{
 	color: white;
 }
 
-.navigation-container a:hover{
+.name :hover,
+.nav-links a:hover{
 	color: white;
 	opacity: 0.7;
 	font-weight: 600;
@@ -168,7 +170,7 @@ main{
 }
 
 .tools{
-	margin-bottom: 50px;
+	margin-bottom: 70px;
 }
 
 .shetravels,
@@ -176,67 +178,129 @@ main{
 .sunchaser{
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+}
+
+.shetravels{
+	background: #3FEFE6;
+	color: #282C34;
+}
+
+.bringit{
+	background: #D2F97A;
+	color: #282C34;
+}
+
+
+
+.sunchaser{
+	background: #fa5f5f;
+	 /* #F2A3A0 #8cdafe */
+	color: white;
 }
 
 .projecthdr-1,
 .projecthdr-2,
 .projecthdr-3{
-	text-align: left;
+	text-align: center;
 	font-size: 30px;
+	margin-top: 0px;
+	padding-top: 30px;
+	font-weight: 600;
 }
 
 .toolsUsed{
 	text-align: center;
-	font-size: 40px;
+	font-size: 20px;
 	margin-top: 30px;
 }
 
 
-.projecthdr-1{
-	font-family: 'Playfair Display', serif;
-	font-style: italic;
-}
-
-.projecthdr-2{
-	font-family: 'Oxygen', sans-serif;
-}
-
+.projecthdr-1,
+.projecthdr-2,
 .projecthdr-3{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 
-.mac-screen,
+.screen{
+	border-radius: 3px;
+}
+
+.mac-screen1,
+.mac-screen2,
+.mac-screen3,
 .screen{
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.mac-screen{
-		padding:24px 26px;
-		display:inline-block;
-		margin:5px;
-		background-color: #0032D3;
-		border-radius:6px;
-		border:solid rgba(0,0,0,0.2);
-		border-width:1px 1px 5px;
-		box-shadow:0 10px 0 rgba(0,0,0,0.1), inset 0 0 3px rgba(255,255,255,0.3);
+.interactOptions{
+	text-align: center;
+	margin: 20px 10px;;
+}
+
+.code-link1,
+.code-link2,
+.code-link3,
+.demo-link1,
+.demo-link2,
+.demo-link3{
+	color: white;
+	padding: 8px 25px;
+	margin: 0px 10px;
+	font-size: 16px;
+}
+
+.code-link1,
+.demo-link1{
+	background-color: #FC4444;
+}
+
+.code-link2,
+.demo-link2{
+	background-color: #E71353;
+}
+
+.code-link3,
+.demo-link3{
+	border: white solid 2px;
+	background: #fa5f5f;
+}
+
+.code-link1:hover,
+.demo-link1:hover,
+.code-link2:hover,
+.demo-link2:hover,
+.code-link3:hover,
+.demo-link3:hover{
+	opacity: 0.6;
+}
+
+.code-link:visited,
+.demo-link:visited{
+	color: white;
 }
 
 /*--Footer Styling--*/
 
 footer{
-	padding: 0px;
-	height: 20px;
 	font-size: 15px;
-	background-color: #0032D3;
+	background-color: #282C34;
 	color: white;
 	width: 100%
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 	position: relative;
 	bottom: 0px;
+	z-index: 11;
 }
+
+.footer-content{
+	text-align: center;
+	font-weight: bold;
+}
+
 
 /*--End of Footer Styling--*/
