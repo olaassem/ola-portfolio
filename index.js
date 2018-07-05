@@ -62,9 +62,18 @@ $(document).scroll(function() {
 
 
 //scrolling on link click functionality
-$('.name').click(function () {
+$('.name').click( (e) => {
+    e.preventDefault();
     $('body,html').animate({
       scrollTop: 0
     }, 2000);
     return false;
+});
+
+
+$( ".workIcon" ).click((e) => {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $("#projects-section").offset().top
+}, 2000);
 });
