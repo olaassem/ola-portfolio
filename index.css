@@ -35,16 +35,24 @@ nav {
 	background-color: #0032D3;
 	color: white;
 	height: 8vh;
-	padding: 10px 50px;
+	padding: 10px 30px;
+}
+
+
+.olalogo{
+	width: 65px;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 50%;
+	bottom: 5px;
 }
 
 .name{
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
 	font-weight: 600;
 	margin: 0px;
-	padding-top: 7px;
-	width: 129px;
-  height: 60px;
+	padding:0px;
 	float: left;
 	vertical-align: middle;
 	color: white;
@@ -113,14 +121,19 @@ nav {
     margin-bottom: 30px;
 }
 
-.availability{
+.goal,
+.goalCont{
+	color: yellow;
+}
+
+.hire{
 	margin-bottom: 5px;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 .freelance{
 	margin-top: 8px;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 .email{
@@ -130,20 +143,21 @@ nav {
 
 .email-link{
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 22px;
 	color: white;
+	text-decoration: underline;
 }
 
 .email-link:hover{
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 22px;
 	opacity: 0.6;
 	color: white;
 }
 
 .email-link:visited{
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 22px;
 	color: white;
 }
 
@@ -204,7 +218,8 @@ main{
 	text-align: center;
 	font-size: 30px;
 	margin-top: 0px;
-	padding-top: 30px;
+	margin-bottom: 15px;
+	padding-top: 40px;
 	font-weight: 600;
 }
 
@@ -286,6 +301,11 @@ main{
 	color: white;
 }
 
+.summary{
+	text-align: center;
+	font-size: 19px;
+	padding-top: 20px;
+}
 /*--Footer Styling--*/
 
 footer{
@@ -302,7 +322,6 @@ footer{
 
 .footer-content{
 	text-align: center;
-	font-weight: bold;
 }
 
 
