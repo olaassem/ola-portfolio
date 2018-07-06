@@ -144,22 +144,22 @@ nav {
 
 .hire{
 	margin-bottom: 5px;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 .freelance{
 	margin-top: 8px;
-	font-size: 20px;
+	font-size: 19px;
 }
 
 .email{
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 21px;
 }
 
 .email-link{
 	font-weight: bolder;
-	font-size: 22px;
+	font-size: 21px;
 	color: #0032D3;
 	text-decoration: underline;
 }
@@ -387,13 +387,23 @@ footer{
 	text-align: center;
 }
 
-.ola{
-width: 300px;
-border-radius: 50%;
-float: right;
-margin:0px;
-top: 70px;
-z-index: -10px
+.olaimg-container{
+	display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.olaimg{
+	width: 230px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50%;
+	border: 8px solid rgba(	0, 50, 211, .5);
+
 
 }
 /*--End of Footer Styling--*/

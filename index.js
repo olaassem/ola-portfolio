@@ -81,5 +81,5 @@ $( ".contactIcon" ).click((e) => {
   e.preventDefault();
   $('html, body').animate({
     scrollTop: $("#box2").offset().top
-  }, 2000);
+  }, 2100);
 });
