@@ -167,7 +167,7 @@ nav {
 
 .email-link:hover{
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 18px;
 	opacity: 0.6;
 	color: white;
 }
@@ -357,5 +357,13 @@ footer{
 	text-align: center;
 }
 
+.ola{
+width: 300px;
+border-radius: 50%;
+float: right;
+margin:0px;
+top: 70px;
+z-index: -10px
 
+}
 /*--End of Footer Styling--*/
