@@ -361,13 +361,24 @@ main{
 
 
 /* Contact Styling */
+.contact-header{
+	text-align: left;
+	color: #0032D3;
+	font-size: 60px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 0px;
+}
+
 .contact{
 	margin-left: auto;
 	margin-right: auto;
-	padding: 20px 30px 55px;
+	padding: 8px;
+	padding-top: 30px;
 }
 
-
+.contact-content{
+	padding-bottom: 30px;
+}
 
 /*--Footer Styling--*/
 
