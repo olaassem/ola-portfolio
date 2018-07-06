@@ -50,7 +50,7 @@ $(document).scroll(function() {
   }
   if (position > red) {
     navbar.css({
-      'background-color': '#F2A3A0',
+      'background-color': '#fa5f5f',
       'color': '#282C34',
       'transition-property': 'background-color',
       'transition-duration': '0.4s',
