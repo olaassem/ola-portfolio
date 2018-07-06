@@ -50,13 +50,13 @@ $(document).scroll(function() {
   }
   if (position > red) {
     navbar.css({
-      'background-color': '#fa5f5f',
-      'color': 'white',
+      'background-color': '#F2A3A0',
+      'color': '#282C34',
       'transition-property': 'background-color',
       'transition-duration': '0.4s',
       'transition-timing-function': 'linear'
     });
-    navlinks.css('color', 'white');
+    navlinks.css('color', '#282C34');
   }
 });
 
