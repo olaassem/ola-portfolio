@@ -51,12 +51,12 @@ $(document).scroll(function() {
   if (position > red) {
     navbar.css({
       'background-color': '#fa5f5f',
-      'color': '#282C34',
+      'color': 'white',
       'transition-property': 'background-color',
       'transition-duration': '0.4s',
       'transition-timing-function': 'linear'
     });
-    navlinks.css('color', '#282C34');
+    navlinks.css('color', 'white');
   }
 });
 
