@@ -1,5 +1,6 @@
 //Change nav background color on scroll
 let offset = $('#white').offset().top;
+let contact = $('#box2').offset().top;
 let green = $('#green').offset().top;
 let yellow = $('#yellow').offset().top;
 let red = $('#red').offset().top;
@@ -38,7 +39,7 @@ $(document).scroll(function() {
     });
     navlinks.css('color', '#282C34');
   }
-  if (position > offset && position < green) {
+  if (position > offset && position < green || position >= contact) {
     navbar.css({
       'background-color': '#E6EEFF',
       'color': '#0032D3',
@@ -48,7 +49,7 @@ $(document).scroll(function() {
     });
     navlinks.css('color', '#0032D3');
   }
-  if (position > red) {
+  if (position > red && position < contact ) {
     navbar.css({
       'background-color': '#ff7fb6',
       'color': '#282C34',
