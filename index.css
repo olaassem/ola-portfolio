@@ -104,7 +104,7 @@ nav {
 
 /*--Header Styling--*/
 #box1{
-	height: 100vh;
+	height: 104vh;
   width: 100%;
   margin: 0px;
   background-color: #0032D3;
@@ -140,6 +140,7 @@ nav {
 .goal,
 .goalCont{
 	color: yellow;
+	font-size: 18px;
 }
 
 .hire{
@@ -159,7 +160,7 @@ nav {
 
 .email-link{
 	font-weight: bold;
-	font-size: 22px;
+	font-size: 18px;
 	color: white;
 	text-decoration: underline;
 }
@@ -185,8 +186,8 @@ nav {
 .unesco{
 	color: pink;
 	font-size: 20px;
-	/* font-weight: bold;
-	text-decoration: underline; */
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 .laugh:hover,
