@@ -215,6 +215,10 @@ main{
 	margin-bottom: 25px;
 }
 
+.toolsImgs{
+	padding-top: 10px;
+}
+
 .tools{
 	margin-bottom: 70px;
 }
@@ -247,10 +251,23 @@ main{
 .projecthdr-2,
 .projecthdr-3{
 	text-align: left;
-	font-size: 20px;
+	font-size: 21px;
 	margin-top: 10px;
 	margin-bottom: 5px;
 	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.projecthdr-1{
+	border-bottom: #FC4444 solid 2px;
+}
+
+.projecthdr-2{
+	border-bottom: #E71353 solid 2px;
+}
+
+.projecthdr-3{
+	border-bottom: white solid 2px;
 }
 
 .toolsUsed{
@@ -270,7 +287,7 @@ main{
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 35px;
+	margin-top: 40px;
 }
 
 .icon{
@@ -280,7 +297,7 @@ main{
 
 .interactOptions{
 	text-align: center;
-	margin: 20px 10px;;
+	margin: 20px 10px;
 }
 
 .code-link1,
@@ -327,13 +344,18 @@ main{
 
 .summary{
 	text-align: left;
-	font-size: 19px;
+	font-size: 18px;
 	padding-top: 10px;
 	margin-top: 1px;
 }
 
 .project-info{
+	padding-left: 30px;
+}
 
+.vertical{
+	margin-top: auto;
+	margin-bottom: auto;
 }
 /*--Footer Styling--*/
 
