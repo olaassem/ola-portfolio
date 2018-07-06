@@ -70,10 +70,16 @@ $('.name').click( (e) => {
     return false;
 });
 
-
 $( ".workIcon" ).click((e) => {
   e.preventDefault();
   $('html, body').animate({
     scrollTop: $("#projects-section").offset().top
-}, 2000);
+  }, 2000);
+});
+
+$( ".contactIcon" ).click((e) => {
+  e.preventDefault();
+  $('html, body').animate({
+    scrollTop: $("#box2").offset().top
+  }, 2000);
 });

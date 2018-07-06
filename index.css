@@ -132,19 +132,19 @@ nav {
 }
 
 .bio{
-    font-size: 19px;
+    font-size: 22px;
     margin-bottom: 30px;
 }
 
 .goal,
 .goalCont{
 	color: yellow;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 .hire{
 	margin-bottom: 5px;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 .freelance{
@@ -158,17 +158,17 @@ nav {
 }
 
 .email-link{
-	font-weight: bold;
-	font-size: 18px;
-	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #0032D3;
 	text-decoration: underline;
 }
 
 .email-link:hover{
-	font-weight: bold;
-	font-size: 18px;
+	font-weight: bolder;
+	font-size: 20px;
 	opacity: 0.6;
-	color: white;
+	color: #0032D3;
 }
 
 .fa-envelope{
@@ -357,6 +357,18 @@ main{
 	margin-top: auto;
 	margin-bottom: auto;
 }
+
+
+
+/* Contact Styling */
+.contact{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 30px 40px;
+}
+
+
+
 /*--Footer Styling--*/
 
 footer{
