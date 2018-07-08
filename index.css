@@ -166,8 +166,14 @@ nav {
 
 .email-link:hover{
 	font-weight: bolder;
-	font-size: 25px;
+	font-size: 21px;
 	opacity: 0.6;
+	color: #0032D3;
+}
+
+.email-link:visited{
+	font-weight: bolder;
+	font-size: 21px;
 	color: #0032D3;
 }
 
