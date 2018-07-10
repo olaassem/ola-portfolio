@@ -132,14 +132,18 @@ nav {
 }
 
 .bio{
-    font-size: 22px;
+    font-size: 23px;
     margin-bottom: 30px;
 }
 
 .goal,
 .goalCont{
-	color: yellow;
-	font-size: 22px;
+	color: white;
+	font-size: 23px;
+}
+
+.goalCont{
+		font-size: 18px;
 }
 
 .hire{
