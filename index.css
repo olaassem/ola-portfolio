@@ -156,18 +156,13 @@ nav {
 	font-size: 19px;
 }
 
+.email-link,
+.email-link:visited,
 .resume,
 .email{
 	font-weight: bold;
-	font-size: 21px;
-}
-
-.email-link,
-.email-link:visited{
-	font-weight: bolder;
-	font-size: 21px;
+	font-size: 18px;
 	color: #0032D3;
-	text-decoration: underline;
 }
 
 .resume:hover,
