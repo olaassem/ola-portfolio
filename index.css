@@ -156,6 +156,7 @@ nav {
 	font-size: 19px;
 }
 
+.resume,
 .email{
 	font-weight: bold;
 	font-size: 21px;
@@ -169,6 +170,7 @@ nav {
 	text-decoration: underline;
 }
 
+.resume:hover,
 .email-link:hover{
 	opacity: 0.6;
 }
