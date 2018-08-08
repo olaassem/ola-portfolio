@@ -207,6 +207,21 @@ main{
 
 .tools{
 	margin-bottom: 70px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.bump{
+	margin: 5px 10px;
+	padding: 5px 15px;
+	background-color: pink;
+	flex-grow: 1;
+
+}
+
+.bump:hover{
+	background-color: yellow;
 }
 
 .shetravels,
