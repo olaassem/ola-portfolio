@@ -206,7 +206,7 @@ main{
 }
 
 .tools{
-	margin-bottom: 70px;
+	margin-bottom: 100px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
