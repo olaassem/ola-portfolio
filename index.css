@@ -215,15 +215,35 @@ main{
 .bump{
 	margin: 5px 10px;
 	padding: 5px 15px;
-	background-color: pink;
+	background-color: none;
 	flex-grow: 1;
 	text-align: center;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
 
 }
+
+.bump:after{
+	content: '';
+	  z-index: -1;
+	  opacity: 0;
+	  border-radius: 5px;
+	  box-shadow: 0 5px 15px rgba(0,0,0,0.9);
+	  transition: opacity 0.3s ease-in-out;
+}
+
 
 .bump:hover{
-	background-color: yellow;
+	background-color: pink;
+	transform: scale(1.2, 1.2);
 }
+
+
+.bump:hover::after {
+  opacity: 1;
+}
+
+
 
 .shetravels,
 .bringit,
