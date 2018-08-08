@@ -49,7 +49,7 @@ $(document).scroll(function() {
     });
     navlinks.css('color', '#0032D3');
   }
-  if (position > red && position < contact ) {
+  if (position > red && position < contact) {
     navbar.css({
       'background-color': '#ff7fb6',
       'color': '#282C34',
@@ -63,22 +63,22 @@ $(document).scroll(function() {
 
 
 //scrolling on link click functionality
-$('.name').click( (e) => {
-    e.preventDefault();
-    $('body,html').animate({
-      scrollTop: 0
-    }, 2000);
-    return false;
+$('.name').click((e) => {
+  e.preventDefault();
+  $('body,html').animate({
+    scrollTop: 0
+  }, 2000);
+  return false;
 });
 
-$( ".workIcon" ).click((e) => {
+$(".workIcon").click((e) => {
   e.preventDefault();
   $('html, body').animate({
     scrollTop: $("#projects-section").offset().top
   }, 2000);
 });
 
-$( ".contactIcon" ).click((e) => {
+$(".contactIcon").click((e) => {
   e.preventDefault();
   $('html, body').animate({
     scrollTop: $("#box2").offset().top
