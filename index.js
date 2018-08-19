@@ -51,7 +51,7 @@ $(document).scroll(function() {
   }
   if (position > red && position < contact) {
     navbar.css({
-      'background-color': '#ff7fb6',
+      'background-color': '#fc5e37',
       'color': '#282C34',
       'transition-property': 'background-color',
       'transition-duration': '0.4s',
